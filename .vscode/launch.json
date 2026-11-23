@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tp7 (Android)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define=SUPABASE_URL=https://qrvpcueshhmofherertv.supabase.co",
+                "--dart-define=SUPABASE_ANON_KEY=sb_publishable_CJPh-Gp0-F3Fc7RKiEKbWQ_-drQQvYn"
+            ]
+        },
+        {
+            "name": "tp7 (Windows)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define=SUPABASE_URL=https://qrvpcueshhmofherertv.supabase.co",
+                "--dart-define=SUPABASE_ANON_KEY=sb_publishable_CJPh-Gp0-F3Fc7RKiEKbWQ_-drQQvYn"
+            ]
+        }
+    ]
+}
